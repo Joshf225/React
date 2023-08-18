@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin-top: 20rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  display: flex;
+  width: 20rem;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 1rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: antiquewhite;
+}
